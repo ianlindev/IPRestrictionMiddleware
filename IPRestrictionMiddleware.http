@@ -1,0 +1,6 @@
+@IPRestrictionMiddleware_HostAddress = http://localhost:5126
+
+GET {{IPRestrictionMiddleware_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
